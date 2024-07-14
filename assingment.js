@@ -23,7 +23,7 @@ function pandaCost(singgaraQuantity, chomucaQuantity, jilapQuantity) {
 console.log(pandaCost(2, 2, 2)); */
 
 // 3 PROBLEM
-let firs100 = 100;
+/* let firs100 = 100;
 let second200 = 50;
 let third300 = 20;
 
@@ -47,3 +47,90 @@ function picncbudget(person) {
 }
 
 console.log(picncbudget(300));
+ */
+
+
+
+
+/* let first100 = 100; 
+let second100 = 50; 
+let third100 = 20;
+function tourbudge (man){
+  if(man <=100){
+    let firstCost = man *first100;
+    return firstCost;
+  }
+  else if(man <=200){
+    let firstCost = 100 *first100;
+    let distance = man -100;
+    let secondCost = distance *second100;
+    let total = firstCost+secondCost;
+    return total;
+  }
+  else if(man <=300){
+    let firstCost = 100 * first100;
+    let secondCost = 100 * second100;
+    let thirdCost = (man - 200) *third100;
+    let intotall = firstCost + secondCost +thirdCost;
+    return intotall;
+  }
+}
+console.log(tourbudge(201)); */
+
+
+// function totalAnimals (mile){
+//   let first10 = 10;
+//   let second20 = 20;
+//   let third30 = 30;
+//   if(mile <=10){
+//     let firstCount = mile *first10;
+//     return firstCount;
+//   }
+//   else if(mile <=20){
+//     let firstCount = 10 * first10;
+//     let firstdic = mile - 10 ;
+//     let secondCound = firstdic *mile;
+//     let totall = firstCount + secondCound ;
+//     return totall ;
+//   }
+//   else if(mile <=30){
+//     let firstCount = 10 * first10 ;
+//     let secondCound = 10 * second20 ;
+//     let secdic = mile - 20;
+//     let thirdCound = secdic *third30;
+//     let intotall = firstCount +secondCound +thirdCound;
+//     return intotall;
+//   }
+
+// }
+// console.log(totalAnimals(21));
+
+/* function getoddname(name) {
+
+  for (let i = 0; i < name.length; i++) {
+    if (name[i].length % 2 == 0) {
+      return name[i]
+    }
+  }
+  return "not found"
+
+}
+ */
+
+
+
+function getEvenName(name) {
+let evenFriend = [];
+  for (let i = 0; i < name.length; i++) {
+    if (name[i].length % 2 !== 0) {
+      evenFriend.push(name[i])
+    } 
+  }
+  return evenFriend;
+
+}
+
+
+
+let names = ['shaki', 'rakiba', 'habib', 'mujammel'];
+console.log(getEvenName(names))
