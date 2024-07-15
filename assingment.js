@@ -49,9 +49,6 @@ function picncbudget(person) {
 console.log(picncbudget(300));
  */
 
-
-
-
 /* let first100 = 100; 
 let second100 = 50; 
 let third100 = 20;
@@ -76,7 +73,6 @@ function tourbudge (man){
   }
 }
 console.log(tourbudge(201)); */
-
 
 // function totalAnimals (mile){
 //   let first10 = 10;
@@ -117,7 +113,7 @@ console.log(tourbudge(201)); */
 }
  */
 
-
+/* 
 
 function getEvenName(name) {
 let evenFriend = [];
@@ -134,3 +130,28 @@ let evenFriend = [];
 
 let names = ['shaki', 'rakiba', 'habib', 'mujammel'];
 console.log(getEvenName(names))
+ */
+
+/* let friends = ["shakib", "rakib", "ashik", "najmul"]; */
+/* function getoddsting(name) {
+  for (let i = 0; i < name.length; i++) {
+    if (name[i].length % 2 == 0) {
+      return name[i];
+    }
+  }
+  return "undifind";
+}
+console.log(getoddsting(friends)); */
+
+/* function alloddstring(name) {
+  let oddnumber = [];
+  for (let i = 0; i < name.length; i++) {
+    if (name[i].length % 2 !== 0) {
+      oddnumber.push(name[i]);
+    }
+  }
+  return oddnumber;
+}
+let friends = ["shakib", "rakib", "ashik", "najmul"];
+console.log(alloddstring(friends));
+ */
